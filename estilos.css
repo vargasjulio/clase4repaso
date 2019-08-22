@@ -1,0 +1,38 @@
+body{
+	font-family: 'Acme', sans-serif;
+	background:url(paisaje-3d.jpg);
+	background-attachment:fixed;
+}
+form fieldset{
+	background:#7D9FFF;
+	transition: all linear 0.5s;
+}
+form fieldset:hover{
+	background:#A8FFD3;
+}
+form{
+	box-shadow:0.2em 0.2em 0.4em #000;
+	width:60%;
+}
+form legend{
+	font-family: 'Acme', sans-serif;
+	text-align:right;
+}
+form input[type="email"]{
+	background:transparent;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	outline:none;
+}
+form input[type="submit"]{
+	display:block;
+	margin-top:2em; 
+	width:200px;
+}
+.parrafo{
+	column-count:3;
+	margin:2em auto;
+	width:60%;
+	background:rgba(255,255,255,0.5);
+	padding:1em;
